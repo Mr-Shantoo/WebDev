@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Semantic Tags and Exercise</title>
+  </head>
+  <body>
+    <header>
+      <h1>This website contains 3 audio files and 3 video files</h1>
+    </header>
+
+    <main>
+      <!-- Audio Section -->
+      <section>
+        <h2>Audio Files</h2>
+        <div>
+          <h3>Audio 1:</h3>
+          <audio src="audio1.mp3" controls muted preload="auto"></audio>
+        </div>
+        <div>
+          <h3>Audio 2:</h3>
+          <audio src="audio2.mp3" controls muted preload="none"></audio>
+        </div>
+        <div>
+          <h3>Audio 3:</h3>
+          <audio src="audio3.mp3" controls muted preload="metadata"></audio>
+        </div>
+      </section>
+
+      <!-- Video Section -->
+      <section>
+        <h2>Video Files</h2>
+        <div>
+          <h3>Video 1:</h3>
+          <video src="video1.mp4" controls width="400" preload="auto"></video>
+        </div>
+        <div>
+          <h3>Video 2:</h3>
+          <video src="video2.mp4" controls width="400" preload="none"></video>
+        </div>
+        <div>
+          <h3>Video 3:</h3>
+          <video
+            src="video3.mp4"
+            controls
+            width="400"
+            preload="metadata"
+          ></video>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
